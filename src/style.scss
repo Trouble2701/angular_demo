@@ -1,0 +1,13 @@
+$link-color: blue;
+
+a {
+    color: $link-color;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+input[text]{
+    width: 150px;
+}
